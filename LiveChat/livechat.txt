@@ -1,0 +1,26 @@
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script>!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');</script>
+<script type="text/javascript" src="http://yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.css" media="screen" />
+
+
+//JAVASCRIPT:
+
+<script type="text/javascript">
+		$(document).ready(function() {
+
+			$("#chatlink").fancybox({
+				'width'				: '65%',
+				'height'			: '60%',
+				'autoScale'			: false,
+				'transitionIn'		: 'elastic',
+				'transitionOut'		: 'elastic',
+				'type'				: 'iframe'
+			});
+
+		});
+</script>
+
+//HTML:
+
+<a id="chatlink" href="http://testdrive.whoson.com/chat/chatstart.aspx?domain=testdrive.whoson.com">Click to Chat (iframe)</a>
